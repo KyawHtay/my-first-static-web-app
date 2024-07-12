@@ -4,7 +4,7 @@ import { CurrentTimeFromAPI } from './components/CurrentTimeFromAPI';
 export default function Home() {
     noStore();
 
-    const timeOnServer = new Date().toLocaleTimeString('en-US');
+    const timeOnServer = new Date().toLocaleTimeString('en-UK');
     return(
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div>
